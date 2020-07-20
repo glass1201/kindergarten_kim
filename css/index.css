@@ -26,6 +26,7 @@
 
 .topmenu .login { position:absolute;
     top:10px; right:350px;
+    color:#000;
 }
 .topmenu .login a { padding-left:10px;
     font-size:11px; 
