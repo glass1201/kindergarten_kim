@@ -3,7 +3,26 @@
 
 .row { max-width:1167px; margin:0 auto;}
 
-#header { position:fixed; 
+.skip a { 
+    background:#000; /*tab키-본문 바로가기*/
+    color:#fff;
+    display:block;
+    font-size:12px;
+    text-align:center;
+    width:1px; height:1px;
+    overflow:hidden;
+    position: absolute;
+    top:-100px;
+}
+.skip a:focus {
+    width:100%; height:auto;
+    padding:10px 0;
+    top:0;
+    position:fixed;
+    z-index:999999;
+}
+
+#header { position: fixed; 
     width:100%; top:0; left:0;
     background:#fff; 
     z-index:9999;
