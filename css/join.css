@@ -2,7 +2,7 @@
 @import "reset.css";
 @import "common.css";
 
-/*<label> 태그 
+/*
  대부분의 폼 태그들은 inline 요소이지만,
  width와 height 속성을 쓸 수 있음.
  <label> 태그만 display:inline-block속성을 추가해야 
