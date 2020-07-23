@@ -46,3 +46,7 @@
     text-align:center;
     font-size:13px;
 }
+#login_page .login_form .check label {
+    margin-right:15px;
+}
+
