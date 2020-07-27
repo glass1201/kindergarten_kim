@@ -32,28 +32,9 @@
     font-family:'맑은고딕';
     padding:10px 0;
     letter-spacing:-0.5px;
-    position:relative;
+    position: relative;
 }
-.topmenu .search_box { 
-    position:absolute;
-    top:8px; left:45%;
-}
-.topmenu .search_box input { 
-    border:none;
-    padding:2px;
-    background:#f76f6f;
-    color:#fff;
-}
-.topmenu .search_box fieldset {
-    border:1px solid #fff;
-    padding-right:5px;
-    border-radius:2px;
-}
-.topmenu .search_box button {
-    border:none;
-    background:#f76f6f;
-    color:#fff
-}
+
 .topmenu a {transition: all 0.5s}
 .topmenu a:hover {color:rgba(255,255,255,1)}
 
@@ -61,6 +42,32 @@
     font-size:12.2px;
 }
 .topmenu .sns a:first-child span { font-size:11px; }
+
+.topmenu .search_box { 
+    position:absolute;
+    top:9px; left:530px;
+}
+.topmenu .search_box input { 
+    border:none;
+    width:130px;
+    padding:3px;
+    padding-left:0.5em;
+    background:none;
+    color:#fff;
+    outline:none;
+}
+.topmenu .search_box ::placeholder { color:#fff }
+.topmenu .search_box fieldset {
+    border:1px solid #fff;
+    padding-right:5px;
+    border-radius:3px;
+}
+.topmenu .search_box button {
+    border:none;
+    background:#f76f6f;
+    color:#fff;
+    padding-right:3px;
+}
 
 .topmenu .login { position:absolute;
     top:10px; right:350px;
