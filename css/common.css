@@ -49,6 +49,11 @@
     padding-right:5px;
     border-radius:2px;
 }
+.topmenu .search_box button {
+    border:none;
+    background:#f76f6f;
+    color:#fff
+}
 .topmenu a {transition: all 0.5s}
 .topmenu a:hover {color:rgba(255,255,255,1)}
 
