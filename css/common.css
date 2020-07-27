@@ -45,7 +45,8 @@
 
 .topmenu .search_box { 
     position:absolute;
-    top:9px; left:530px;
+    top:8px; right:50%;
+    transform:translate(50%)
 }
 .topmenu .search_box input { 
     border:none;
@@ -70,7 +71,7 @@
 }
 
 .topmenu .login { position:absolute;
-    top:10px; right:350px;
+    top:8px; right:10px;
     color:#000;
 }
 .topmenu .login a { padding-left:10px;
@@ -82,8 +83,9 @@
 }
 .logoNav h1 { font-size:26.25px;
     color:#ffae3d;
-    line-height:76px;
+    padding:24.875px 0 0;
     font-weight:bold;
+    line-height:15.75px;
 }
 .logoNav .nav { position:absolute;
     top:0; right:0;
@@ -91,10 +93,13 @@
 .logoNav .nav .depth1 > li { display:inline-block;
     font-size:15.75px;
     font-weight:bold;
-    line-height:76px;
     padding-left:20px;
     transition:all 0.5s;
     position:relative;
+}
+.logoNav .nav .depth1 > li > a {
+    padding:24.875px 0 24.875px 30px;
+    display:inline-block;
 }
 .logoNav .nav .depth1 > li:first-child { color:#FFd23c }
 .logoNav .nav .depth1 > li > a:after {
@@ -173,22 +178,3 @@
     padding:10px 0;
 }
 
-@media only screen and (max-width:1170px) {
-    .row { padding:0 10px;}
-}
-@media only screen and (max-width:992px) {
-    .logoNav { position:relative;
-        height:auto;
-        background: #fff; 
-    }
-    .logoNav h1 { font-size:26.25px;
-        color:#ffae3d;
-        line-height:76px;
-        font-weight:bold;
-        text-align:center;
-    }
-    .logoNav .nav { position:static;
-        top:0; right:0; 
-        text-align: center;
-    }
-}
