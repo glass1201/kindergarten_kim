@@ -172,3 +172,23 @@
     font-size:10.5px;
     padding:10px 0;
 }
+
+@media only screen and (max-width:1170px) {
+    .row { padding:0 10px;}
+}
+@media only screen and (max-width:992px) {
+    .logoNav { position:relative;
+        height:auto;
+        background: #fff; 
+    }
+    .logoNav h1 { font-size:26.25px;
+        color:#ffae3d;
+        line-height:76px;
+        font-weight:bold;
+        text-align:center;
+    }
+    .logoNav .nav { position:static;
+        top:0; right:0; 
+        text-align: center;
+    }
+}
